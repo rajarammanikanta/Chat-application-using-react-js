@@ -14,7 +14,7 @@ const india="India Office"
 const introductions="Introductions"
 
 class Chats extends Component{
-    state={inputText: "",messageList: [],introductionChecked: false,polandChecked: false,indiaChecked: false} 
+    state={inputText: "",messageList: [],introductionChecked: false,polandChecked: false,indiaChecked: true} 
 
     getMessageInput=text=>{
         this.setState({inputText: text})  
